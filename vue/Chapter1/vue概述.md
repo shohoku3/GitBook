@@ -1,4 +1,4 @@
-##Vue
+##Vue概述
 #### 简介
 轻量 用户界面层 渐进式 框架
 #### 建议基础
@@ -21,29 +21,6 @@ html css js
 - Object.freeze() 阻止修改
 - 全局属性 $ 区别于用户自定义属性
 
-#### 实例生命周期钩子
-vue 实例创建过程中有一系列初始化过程
-- 数据监听
-- 编辑模板
-- 实例挂载Dom
-- 数据更新Dom
-- 生命周期钩子函数：给用户添加自己的代码
-> 不要使用箭头函数
-#### 生命周期
-##### 创造
-- beforeCreate
-- create
-##### 挂载el
-- beforeMount
-- mount 挂载
-##### data change
-- beforeUpdate
-- updated
-##### destory()
-- beforeDestory
-- destoryed
-
-![图片](https://cn.vuejs.org/images/lifecycle.png)
 
 #### 模板
 基于html 声明式的将Dom绑定 Vue 将模板编译成虚拟 DOM 渲染函数
@@ -62,15 +39,17 @@ vue 实例创建过程中有一系列初始化过程
 
 #### 计算属性
 - computed:{ 语句 }
-
+#### 监听属性
+- watch:{语句}
 #### 计算属性和监听属性
 Vue 提供了一种更通用的方式来观察和响应 Vue 实例上的数据变动：侦听属性
 
 - 推荐使用计算属性
 
 #### setter getter
+- 源于Js的对象属性访问器
 
-#### class style 绑定
+#### style 绑定
 - html class 绑定 v-bind:class
 - 数组语法 v-bind:class="[activeclass,errorclass]"
 - 组件添加
@@ -153,62 +132,3 @@ Vue 提供了一种更通用的方式来观察和响应 Vue 实例上的数据�
 >
 	<input v-model="message" palceholder="edit me">
 	<p>Messge is :{{message}}</p>
-
-### 组件基础
->	
-	Vue.component('button-counter', {
-  		data: function () {
-    	return {
-     	 count: 0
-   		}
-  	},
-  	template: '<button v-on:click="count++">You clicked me {{ count }} times.</button>'
-	})
-#### 组件复用
->
-	data 必须是一个函数
-
->	data:function(){}
-
-#### 组件的组织
-- 组件树
-![](https://cn.vuejs.org/images/components.png)
-##### 组件树注册类型
-- 全局注册
-- 局部注册
-##### 通过Prop 向子组件传递数据
-
->	
-	Vue.component('blog-post',{
-		props:['title'],
-		})
-
-		<blog-post title="my journey with vue"></blog-post>
-
-##### 单个根元素 
-- 将模板包含于一个父元素中
-
-##### 在组件上使用 v-model
-
-- 将value 绑定 到名为value prop上
-- input 触发时 将新值用$emit() 抛出
-
->
-	Vue.component('custom-input',{
-		props:['value'],
-		template:`
-			<input v-bind:value="value"
-			v-on:input="$emit('input',$event.target.value)"
-			>
-			`
-		})
-
-##### 通过插槽分发内容
-##### 动态组件
-- 特殊 is 特性实现
-
->
-	<component v-bind:is="currentTabComponent"></component>
-
-#####解析 DOM 模板时的注意事项
-- 如果使用单文件组件不会出现
