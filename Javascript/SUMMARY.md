@@ -6,5 +6,12 @@
   * [第3节：函数Apply](Chapter1/函数Apply.md)
   * [第4节：闭包](Chapter1/闭包.md)
   * [第5节：Cookie Session](Chapter1/cookie.md)
+* [第二章](Chapter2/README.md)
+    * [第1节：Ajax](Chapter2/ajax.md)
+    * [第2节：Ajax核心](Chapter2/ajax核心.md)
+    * [第3节：Ajax响应](Chapter2/ajax响应.md)
+    
+
+
 
 

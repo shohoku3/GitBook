@@ -53,19 +53,7 @@ Vue 提供了一种更通用的方式来观察和响应 Vue 实例上的数据�
 - html class 绑定 v-bind:class
 - 数组语法 v-bind:class="[activeclass,errorclass]"
 - 组件添加
-#### 条件渲染
-- v-if
-- v-else
-- v-else-if
-- v-if="loginType=='key" 根据key值判断 以分开显示
-- v-show
-> 注意：此属性仅仅是切换css 中的display
-> v-if 直到条件为真时才会渲染元素
-> v-show 会直接渲染
 
-- v-for
-
-> 不推荐： v-for 和 v-if 一起使用　v-for 的优先级高
 
 #### List render
 - 使用v-for控制
