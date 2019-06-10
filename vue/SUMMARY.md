@@ -1,4 +1,4 @@
-# VUE Note
+# VUE 
 * [前言](README.md)
 * [第一章](Chapter1/README.md)
   * [第1节：概述](Chapter1/vue概述.md)
