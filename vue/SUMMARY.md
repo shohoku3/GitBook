@@ -9,5 +9,5 @@
   * [第6节：属性](Chapter1/属性.md)
   * [第7节：自定义事件](Chapter1/自定义事件.md)
   * [第8节：过渡与动画](Chapter1/过渡.md)
-* [第二章](Chapter2/README.md)
+
 
