@@ -17,6 +17,15 @@
   * [第3节：@property](Chapter3/@property.md)
   * [第4节：多重继承](Chapter3/多重继承.md)
   * [第5节：定制类](Chapter3/定制类.md)
+  * [第6节：枚举类](Chapter3/枚举类.md)
+  * [第7节：元类](Chapter3/元类.md)
+  * [第8节：错误](Chapter3/错误.md)
+  * [第9节：调试](Chapter3/调试.md)
+  * [第10节：单元测试](Chapter3/unit_test.md)
+
+
+
+
 
 
 
