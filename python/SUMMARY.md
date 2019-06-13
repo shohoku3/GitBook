@@ -10,7 +10,7 @@
   * [第2节：面向对象](Chapter2/面向对象.md)
   * [第3节：继承与多态](Chapter2/继承与多态.md)
   * [第4节：获取对象信息](Chapter2/对象的信息.md)
-  * [第5节：获取对象信息](Chapter2/实例类的属性.md)
+  * [第5节：实例类的属性](Chapter2/实例类的属性.md)
 * [第三章 面向对象高级](Chapter3/README.md)
   * [第1节：slots](Chapter3/slots.md)
   * [第2节：装饰器](Chapter3/装饰器.md)
@@ -22,6 +22,17 @@
   * [第8节：错误](Chapter3/错误.md)
   * [第9节：调试](Chapter3/调试.md)
   * [第10节：单元测试](Chapter3/unit_test.md)
+  * [第11节：IO编程](Chapter3/IO.md)
+  * [第12节：文件读写](Chapter3/文件读写.md)
+  * [第13节：StringIO](Chapter3/StringIO.md)
+  * [第14节：文件和目录](Chapter3/文件和目录.md)
+  * [第15节：序列化](Chapter3/序列化.md)
+
+
+
+
+
+
 
 
 
