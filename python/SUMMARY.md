@@ -31,6 +31,12 @@
   * [第17节：多进程+进程间通信](Chapter3/多进程.md)
   * [第18节：多线程](Chapter3/多线程.md)
   * [第19节：ThreadLocal](Chapter3/ThreadLocal.md)
+  * [第20节：进程+线程](Chapter3/进程线程.md)
+* [第四章 内置模块](Chapter3/README.md)
+  * [第1节：collections](Chapter3/collection.md)
+  * [第2节：base64](Chapter3/base64.md)
+
+
 
 
 
